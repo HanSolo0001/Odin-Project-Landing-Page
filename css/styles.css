@@ -36,6 +36,12 @@ video {
     color: #fff;
 }
 
+
+/* END Main CSS
+
+
+/* START Nav */
+
 header {
     display: flex;
     flex-direction: row;
@@ -57,4 +63,4 @@ header {
 }
 
 
-/* END Main CSS
+/* END Nav */
