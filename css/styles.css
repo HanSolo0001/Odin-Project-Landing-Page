@@ -95,6 +95,7 @@ header {
 
 .hero-container {
     display: flex;
+    justify-content: space-around;
 }
 
 .hero-description {
@@ -102,4 +103,12 @@ header {
     flex-direction: column;
     width: 50%;
     padding: 1em;
+}
+
+.hero-cta {
+    width: 25%;
+    border-radius: 10px;
+    background-color: #e99105;
+    margin-top: 0.5em;
+    box-shadow: 2px 2px 4px #e5be68;
 }
