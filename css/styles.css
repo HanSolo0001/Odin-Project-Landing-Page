@@ -35,7 +35,8 @@ body {
 }
 
 .nav-container,
-.hero-container {
+.hero-container,
+.footer-container {
     background-color: #1f2937;
     color: #fff;
 }
