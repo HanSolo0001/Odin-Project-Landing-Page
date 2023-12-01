@@ -30,6 +30,10 @@ video {
 
 /* START Main CSS */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .nav-container,
 .hero-container {
     background-color: #1f2937;
@@ -47,6 +51,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 0.75em;
+}
+
+.company-name {
+    font-size: 1.75em;
 }
 
 .nav-list {
