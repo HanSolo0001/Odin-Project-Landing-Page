@@ -26,3 +26,35 @@ video {
 
 
 /* END CSS RESET Based Off Kevin Powell */
+
+
+/* START Main CSS */
+
+.nav-container,
+.hero-container {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75em;
+}
+
+.nav-list {
+    display: flex;
+    gap: .75em;
+}
+
+.nav-list-item {
+    list-style: none;
+}
+
+.nav-list-link {
+    text-decoration: none;
+}
+
+
+/* END Main CSS
