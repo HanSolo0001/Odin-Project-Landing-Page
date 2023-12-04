@@ -230,6 +230,15 @@ main {
     border-radius: 10px;
 }
 
+.cta-title {
+    font-size: 1.5em;
+    padding: 0.25em 0;
+}
+
+.cta-flex-item>p {
+    font-size: .75em;
+}
+
 .cta-section-button {
     border-radius: 10px;
     background-color: #1f2937;
