@@ -162,14 +162,15 @@ main {
 }
 
 .services-grid-item {
+    width: 80%;
     padding: 1em;
     border: 2px solid #1f2937;
     border-radius: 10px;
-    margin: 1em;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    margin: 0 auto;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
 }
 
 .services-grid-item>p:nth-child(1) {
