@@ -150,12 +150,27 @@ main {
     text-align: center;
 }
 
+.services>.services-title {
+    grid-column: 1/5;
+    font-size: 2em;
+    padding: 1em;
+    text-shadow: 2px 2px 7px #1f2937;
+    letter-spacing: .1em;
+}
+
 .services-grid-item {
     padding: 1em;
     border: 2px solid #1f2937;
+    border-radius: 10px;
     margin: 1em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
-.services-grid-item:nth-child(1n) {
+.services-grid-item>p:nth-child(1) {
+    color: #317cce;
+    font-size: 1.25em;
     padding-bottom: 1em;
 }
