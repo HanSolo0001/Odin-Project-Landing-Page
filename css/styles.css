@@ -174,3 +174,13 @@ main {
     font-size: 1.25em;
     padding-bottom: 1em;
 }
+
+
+/* START Footer */
+
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background-color: #1f2937;
+    color: #fff;
+}
