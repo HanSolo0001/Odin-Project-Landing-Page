@@ -132,7 +132,7 @@ header {
 /* END Hero Section Below Main Nav */
 
 
-/* Main Section Below Hero Section */
+/* START Main Section Below Hero Section */
 
 .page-container {
     min-height: 100vh;
@@ -143,6 +143,9 @@ header {
 main {
     flex: 1;
 }
+
+
+/* START Services Section */
 
 .services {
     display: grid;
@@ -176,6 +179,39 @@ main {
 }
 
 
+/* END Services Section */
+
+
+/* START Testimonials Section */
+
+.testimonials {
+    text-align: center;
+    margin: 3em auto;
+    padding: 3em;
+    background-color: #E5E7EB;
+}
+
+.testimonials>p {
+    font-style: italic;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.55em;
+    padding-bottom: 0.5em;
+}
+
+.testimonials>p:nth-child(2) {
+    font-style: normal;
+    text-align: right;
+    font-weight: 500;
+}
+
+
+/* END Testimonials Section */
+
+
+/* END Main Section Below Hero Section */
+
+
 /* START Footer */
 
 footer {
@@ -184,3 +220,6 @@ footer {
     background-color: #1f2937;
     color: #fff;
 }
+
+
+/* END Footer */
