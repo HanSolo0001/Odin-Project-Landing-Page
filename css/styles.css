@@ -51,7 +51,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.75em;
+    padding: 0.75em 1em;
     align-items: center;
 }
 
@@ -107,13 +107,13 @@ header {
 }
 
 .hero-title {
-    font-size: 2em;
+    font-size: 2.75em;
 }
 
 .hero-title span {
     color: #e99105;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .hero-cta {
